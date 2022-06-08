@@ -1,0 +1,6 @@
+d:\Development\Python\Python3.10\lib\site-packages\lightgbm\engine.py:181: UserWarning: 'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. Pass 'early_stopping()' callback via 'callbacks' argument instead.
+  _log_warning("'early_stopping_rounds' argument is deprecated and will be removed in a future release of LightGBM. "
+[LightGBM] [Warning] Auto-choosing col-wise multi-threading, the overhead of testing was 0.004248 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+RMSE:  0.43421275319941804
+RMSE:  0.43421275319941804

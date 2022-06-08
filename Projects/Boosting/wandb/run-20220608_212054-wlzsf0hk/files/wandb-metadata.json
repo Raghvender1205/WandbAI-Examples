@@ -1,0 +1,23 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-06-08T15:51:17.067803",
+    "startedAt": "2022-06-08T15:50:54.213891",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Raghvender1205/WandbAI-Examples.git",
+        "commit": "f3d8912a55bd8dbbf1eece4b647f39cf1ea88af2"
+    },
+    "email": "raghvender1205@gmail.com",
+    "root": "D:/ML/WandbAI/Examples",
+    "host": "Dell-G7",
+    "username": "RC",
+    "executable": "d:\\Development\\Python\\Python3.10\\python.exe"
+}

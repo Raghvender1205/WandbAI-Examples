@@ -1,0 +1,123 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.17
+    framework: lightgbm
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    m:
+    - 1: validation_rmse
+      6:
+      - 3
+      7:
+      - 1
+    - 1: validation_l2
+      6:
+      - 3
+      7:
+      - 1
+    - 1: validation_l1
+      6:
+      - 3
+      7:
+      - 1
+    - 1: validation_huber
+      6:
+      - 3
+      7:
+      - 1
+    python_version: 3.10.4
+    start_time: 1654703454
+    t:
+      1:
+      - 5
+      - 8
+      - 53
+      - 55
+      2:
+      - 5
+      - 8
+      - 53
+      - 55
+      3:
+      - 2
+      - 7
+      - 16
+      - 25
+      - 26
+      4: 3.10.4
+      5: 0.12.17
+      8:
+      - 1
+      - 2
+      - 3
+      - 5
+    visualize:
+      Feature Importance:
+        panel_config:
+          fieldSettings:
+            label: Feature
+            value: Importance
+          panelDefId: wandb/bar/v0
+          stringSettings:
+            title: Feature Importance
+          transform:
+            name: tableWithLeafColNames
+          userQuery:
+            queryFields:
+            - args:
+              - name: runSets
+                value: ${runSets}
+              fields:
+              - fields: []
+                name: id
+              - fields: []
+                name: name
+              - fields: []
+                name: _defaultColorIndex
+              - args:
+                - name: tableKey
+                  value: Feature Importance_table
+                fields: []
+                name: summaryTable
+              name: runSets
+        panel_type: Vega2
+bagging_fraction:
+  desc: null
+  value: 0.8
+bagging_freq:
+  desc: null
+  value: 5
+boosting_type:
+  desc: null
+  value: gbdt
+early_stopping_round:
+  desc: null
+  value: 5
+feature_fraction:
+  desc: null
+  value: 0.9
+learning_rate:
+  desc: null
+  value: 0.05
+metric:
+  desc: null
+  value:
+  - rmse
+  - l2
+  - l1
+  - huber
+num_iterations:
+  desc: null
+  value: 30
+num_leaves:
+  desc: null
+  value: 31
+objective:
+  desc: null
+  value: regression
+verbosity:
+  desc: null
+  value: 0
