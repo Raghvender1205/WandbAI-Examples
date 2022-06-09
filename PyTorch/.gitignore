@@ -1,4 +1,5 @@
 wandb/
+data/
 .ipynb_checkpoints/
 MNIST/
 *.gz
