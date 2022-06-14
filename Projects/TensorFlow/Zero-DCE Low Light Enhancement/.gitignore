@@ -1,0 +1,7 @@
+/wandb
+/artifacts
+/.ipynb_notebooks
+/data
+/__MACOSX
+*.zip
+*.h5
